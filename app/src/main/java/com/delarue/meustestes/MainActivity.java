@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.sql.SQLOutput;
-
 public class MainActivity extends AppCompatActivity {
 
 
@@ -19,14 +17,13 @@ public class MainActivity extends AppCompatActivity {
 
         Button botaoX = (Button) findViewById(R.id.botaoNovo);
 
-        botaoX.setText("JotaPeDeEsse!");
+        botaoX.setText("JotaPe!");
 
         botaoX.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                System.out.println("Você Clicou No Botão?");
 
-                Toast.makeText(getApplicationContext(),"Como Usar O Toast!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Você Clicou No Botão Xis", Toast.LENGTH_SHORT).show();
 
             }
         });
